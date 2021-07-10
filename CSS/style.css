@@ -625,11 +625,12 @@ form {
 
 	#banner-lottie-1 {
 		width: 100%;
+		top: 65% !important;
 	}
 	
 	#banner-lottie-2 {
 		width: 130%;
-		top: -23% !important;
+		top: 50% !important;
 		left: -16% !important;
 	}
 
