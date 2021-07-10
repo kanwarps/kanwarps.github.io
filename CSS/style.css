@@ -172,7 +172,7 @@ form {
 	width: 90%;
 	position: absolute;
 	left: 0% !important;
-	top: -10% !important;
+	top: -2% !important;
 	transform: translate(-50%, -50%) !;
 	z-index: 200;
 }
@@ -181,7 +181,7 @@ form {
 	width: 120%;
 	position: absolute;
 	left: -10% !important;
-	top: -27% !important;
+	top: -20% !important;
 	transform: translate(-50%, -50%);
 }
 
