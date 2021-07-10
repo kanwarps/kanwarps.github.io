@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root{
+	--light:#fff;
+	--dark:#181818;
+	--accent:#2DBFBD; 
+}
+
+/* For Smooth Scrool */
+html{
+	/* scroll-behavior: smooth */
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: var(--light);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: var(--dark);
+}
+
+hr.new2 {
+  border-top: 2px dashed var(--dark);
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	margin: 0;
+	line-height: 1;
+	font-size: 6rem;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	margin: 0;
+	line-height: 1;
+	font-size: 4rem;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	margin: 2rem 0 0 0;
+	line-height: 1;
+	font-size: 2rem;
+	color: var(--accent);
+}
+
+
+
+.stripA{
+	height: 100vh;
+	padding-left: 12vw ;
+	padding-right: 12vw ;
+	/*position: sticky;
+	top: 0;*/
+	color: var(--dark);
+	z-index: 1;
+	/* background-image:url(/assets/no.png); 
+	background-position: center; Center the image
+	background-repeat: no-repeat;  Do not repeat the image 
+	background-size: cover; Resize the background image to cover the entire container */
+
+}
+
+.stripA h2{
+	color: var(--light);
+}
+
+.innerstrip{
+	padding-left: 12vw; 
+	padding-right: 12vw ;
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+	/* overflow: hidden; */
+}
+
+/* Used for the result column */
+.result-css{
+	padding: 20vh 12vw;
+}
+
+.embed-responsive-item{
+	width: 60vw;
+}
+
+/* The following class is used for the banner image container */
+.banner-image-container{
+	height: 101vh;
+	overflow: hidden;
+}
+
+.banner-image{
+	object-fit: cover;
+	object-position: 50% 50%;
+	height: 100%;
+	width: 100%;
+}
+
+
+/* In order for all the left columns to be able to stick to the top, they need to be 100vh. So use this class. */
+.left-col{
+	height: 100vh;
+	padding: 20vh 5vw 20vh 12vw;
+}
+
+/* This class gives the right column a height of 100vh. This column is to be used to show photos/videos. */
+.right-col{
+	height: 100vh;
+}
+
+/* Use this class for all the images which are supposed to be 100% width and height of container */
+.background-image{
+	display:block;
+  width:100%; height:100%;
+  object-fit: cover;
+}
+
+
+.custfooter{
+	background-color: var(--light);
+	/* position: relative;
+	z-index: 50; */
+
+}
+
+
+/*Portfolio Heading styles*/
+.portfoliobanner{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800 ;
+	line-height: 1;
+	font-size: 40vh;
+	color: #212121;	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.contactext{
+	margin-left: 90%;
+}
+
+
+/*About text styling*/
+.abouttext{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nopad{
+	padding: 0;
+	margin:0;
+}
+
+.yespad{
+	margin-top: 25px;
+}
+
+
+.nopad-right{
+	padding-right: 0;
+	margin-right:0;
+}
+
+.rightalign{
+	position: absolute;
+	right: 0;
+}
+
+
+/*Footer text styling*/
+.footertext{
+	font-family: 'Avenir Light', 'Montserrat' ;
+	margin-top: 0.5rem;
+	color: var(--dark);
+}
+
+/*Highlited text styling*/
+.highlight{
+	color: var(--accent) ;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.highlight-heads {
+	color: var(--accent);
+	font-style: italic;
+	font-weight: 800;
+}
+
+
+
+/* Footer Social Media links 
+	Instagram*/
+.insta{
+	text-decoration: none;
+	font-weight: 900;
+	color: var(--dark);
+	transition: all 0.5s ease;
+}
+
+.insta:hover{
+	text-decoration: none;
+	color: #DF346D;
+}
+
+/* Youtube */
+.yout{
+	text-decoration: none;
+	font-weight: 900;
+	color: var(--dark);
+	transition: all 0.5s ease;
+}
+
+.yout:hover{
+	text-decoration: none;
+	color: #FF0000;
+}
+
+/* Behance */
+.beha{
+	text-decoration: none;
+	font-weight: 900;
+	color: var(--dark);
+	transition: all 0.5s ease;
+}
+
+.beha:hover{
+	text-decoration: none;
+	color: #1B64F6;
+}
+
+/* Before Footer */
+.beforefooter{
+	padding: 15vh 10vw 15vh 0;
+}
+
+@media(max-width: 1024px){
+
+	.left-col{
+		padding: 10vh 5vw;
+		position: static;
+		height: 150vh;
+	}
+
+	.beforefooter{
+		padding: 0vh 0vw 10vh 0!important;
+	}
+
+}
+
+@media(max-width: 768px){
+	.stripA h2{
+		padding-left: 6vw;
+		padding-right: 6vw;
+	}
+
+	h1{
+		font-size: 4rem;
+	}
+	
+	h2{
+		font-size: 3rem;
+	}
+	
+	h3{
+		font-size: 1.5rem;
+	}
+	
+	.left-col{
+		padding: 10vh 5vw;
+		position: static;
+		height: 150vh;
+	}
+
+
+}
+
+@media(max-width: 600px){
+	body{
+		font-size: 1rem;
+	}
+	
+	h1{
+		font-size: 4rem;
+	}
+	
+	h2{
+		font-size: 2.5rem;
+	}
+	
+	h3{
+		font-size: 1.5rem;
+	}
+
+.left-col{
+	padding: 10vh 5vw;
+	position: static;
+	height: auto;
+}
+
+.result-css{
+	padding: 10vh 5vw;
+}
+
+
+.custfooter{
+	font-size: 1rem;
+	padding-left: 10vw;
+
+}
+
+hr.new2 {
+ width: 50vw;
+}
+
+}
+
+
