@@ -1,0 +1,268 @@
+.navbar{
+	margin:1rem 0 1rem 1rem;
+	margin-left: 2rem;
+	background-color: transparent!important;
+	position: absolute;
+	width: 94%;
+
+}
+/* For the LOGO */
+.actbrand{
+	/* font-family: 'Gotham', 'Montserrat' ; */
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 1.75rem!important;
+	color: var(--light);
+	position: fixed;
+	top:4.0vh;
+	left:4vw;
+	transition-duration: 0.5s;
+	transition-property: all; 
+	z-index: 1;
+}
+
+.brandspan{
+	color: var(--accent);
+}
+
+.color-gray  {
+	color: var(--dark)!important;
+}
+.color-gray:hover  {
+	color: var(--accent)!important;
+}
+.color-white  {
+	color: var(--light)!important;
+}
+.color-white:hover  {
+	color: var(--accent)!important;
+}
+.bg-gray  {
+	background-color: var(--dark)!important;
+}
+.stroke-white {
+	stroke: var(--light)!important;
+}
+
+.actbrand:hover{
+	color:var(--accent);
+	 
+}
+
+/* Navbar padding ke liye */
+.customnav{
+	padding-left: 3vw ;
+	padding-right: 0 ;
+	z-index: 999;
+}
+
+/* Navbar ki baaki items ke liye */
+.custmenu{
+	color: var(--light) ;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 900 ;
+	padding: 8px 7px 8px 7px ;
+	transition-duration: 0.5s;
+	transition-property: color; 
+	
+}
+
+.custmenu :hover{
+	color:var(--accent);
+
+}
+
+/* MENU KI CSS */
+
+/* body{
+	font-family: 'PT Sans',sans-serif;
+	background-color: #373c56;
+} */
+#nmenu {
+	margin: 10px 10px 0 0;
+	cursor: pointer;
+	position: fixed;
+	z-index: 3;
+}
+
+.nnav ul {
+	padding: 0;
+	z-index: 999;
+	transition: all 0.5s ease;
+	margin: 0 100px 0 0;
+	opacity: 0;
+}
+
+.nnav-change ul {
+	margin: 0;
+	opacity: 100;
+}
+
+.nnav li a {
+	font-size: 10vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: var(--dark);
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.nnav li a:hover {
+	/*font-weight: bold;*/
+	color: var(--accent);
+}
+
+.nnav li {
+	list-style: none;
+	padding: 16px 0;
+}
+
+.nnav {
+	padding: 0;
+	margin: 0 20px;
+	transition: all 2s ease 1s;
+	display: none;
+}
+
+.nnav-change {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	margin: 0;
+}
+
+.nmenu-bg,
+#nmenu-bar {
+	top: 0;
+	right: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.nmenu-bg {
+	z-index: 1;
+	width: 64px;
+	height: 64px;
+	margin: 10px 10px 0px 0px;
+	background: var(--light);
+	border-radius: 50%;
+	transition: all 1s ease;
+}
+
+#nmenu-bar {
+	z-index: 2;
+}
+
+.change-bg {
+	/* width: 500vh;
+    height: 500vh;
+    border-radius: 50%; */
+	transform: scale(100);
+}
+
+.nmenu input {
+	display: none;
+}
+
+.nmenu {
+	width: 100%;
+}
+
+.nmenu label {
+	top: 0;
+	right: 0;
+	position: absolute;
+	margin: 0 10px 0 0;
+
+	display: block;
+	cursor: pointer;
+	width: 50vw;
+	height: 50vw;
+	max-width: 64px;
+	max-height: 64px;
+	z-index: 500;
+}
+
+.nmenu path {
+	fill: none;
+	stroke: var(--dark);
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	--length: 24;
+	--offset: -38;
+	stroke-dasharray: var(--length) var(--total-length);
+	stroke-dashoffset: var(--offset);
+	transition: all .8s cubic-bezier(.645, .045, .355, 1);
+}
+
+.nmenu circle {
+	fill: #fff3;
+	opacity: 0;
+}
+
+.nmenu label:hover circle,
+.nmenu input:checked circle {
+	opacity: 1;
+}
+
+.nmenu input:checked+svg .line--1,
+.nmenu input:checked+svg .line--3 {
+	--length: 8.602325267;
+}
+
+.nmenu .line--1,
+.nmenu .line--3 {
+	--total-length: 126.38166809082031;
+}
+
+.nmenu .line--2 {
+	--total-length: 80;
+}
+
+.nmenu input:checked+svg .line--1,
+.nmenu input:checked+svg .line--3 {
+	--offset: -109.1770175568;
+}
+.desktop-menu {
+	display: block;
+	width: 100%;
+}
+
+.mobile-menu {
+	display: none;
+}
+
+
+@media(max-width: 768px) {
+
+	.desktop-menu {
+		display: none;
+	}
+
+
+	.mobile-menu {
+		display: block;
+	}
+
+}
+
+@media(max-width: 600px) {
+    .actbrand {
+        top: 1.5vh;
+        left: 4vw;
+    }
+
+	.navbar{
+		width: 75%;
+	}
+}
