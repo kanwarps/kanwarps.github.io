@@ -22,6 +22,12 @@
 	z-index: 1;
 }
 
+.actbrand:after {
+    /* This value is the OPPOSITE color of our background */
+    color: rgb(0, 255, 255); 
+    mix-blend-mode: difference;
+}
+
 .brandspan{
 	color: var(--accent);
 }
