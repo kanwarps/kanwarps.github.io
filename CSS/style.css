@@ -28,6 +28,11 @@ html {
 	margin: 0;
 }
 
+.about-padding{
+	padding: 15vh 10vw 0 2vw;
+	margin: 0;
+}
+
 .equal-flex{
 	flex-grow: 1;
 	flex-basis: 0;
@@ -53,6 +58,17 @@ body {
 	top: -15%;
 }
 
+.banner-image-container{
+	height: 100vh;
+	overflow: hidden;
+}
+
+.banner-image{
+	object-fit: cover;
+	object-position: 50% 50%;
+	height: 100%;
+	width: 100%;
+}
 
 hr.new2 {
 	border-top: 2px dashed var(--dark);
@@ -70,15 +86,13 @@ hr.new2 {
 }
 
 .strip2 {
-	/*padding: 10vh 0vh;
-	height: 100vh;*/
 	min-height: 100vh;
-	padding: 10vh 12vw;
+	padding: 10vh 0;
 	position: relative;
 	/*position: sticky;
 	top:0;
 	overflow-y: auto;*/
-	padding-left: 12vw;
+	/* padding-left: 12vw; */
 	padding-right: 12vw;
 	background-color: var(--light);
 	color: var(--dark);
@@ -454,7 +468,7 @@ form {
 
 /* Before Footer */
 .beforefooter {
-	padding: 15vh 10vw 15vh 0;
+	padding: 15vh 10vw 15vh 2vw;
 }
 
 @media(max-width: 1024px) {
@@ -462,8 +476,8 @@ form {
 		/* visibility: hidden; */
 	}
 
-	.strip2 {
-		padding: 12vh 12vw;
+	.about-padding{
+		padding: 10vh 8vw;
 	}
 
 	.strip3 {
