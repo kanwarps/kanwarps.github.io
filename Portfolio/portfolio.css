@@ -151,6 +151,11 @@ h3 {
 }
 
 
+.embed-responsive{
+	width: 70%;
+	margin: 0 auto;
+}
+
 /*About text styling*/
 .abouttext{
 	font-family: 'Open Sans', sans-serif;
@@ -244,6 +249,14 @@ h3 {
 	padding: 15vh 10vw 15vh 0;
 }
 
+
+/* Fixing Bootstrap z-index which was interfering with our menu */
+.sticky-top{
+	z-index: 100;
+}
+
+
+
 @media(max-width: 1024px){
 
 	.left-col{
@@ -281,7 +294,10 @@ h3 {
 		position: static;
 		height: 150vh;
 	}
-
+	/* Reducing the height to 50vh for smaller screens */
+	.right-col{
+		height: 60vh;
+	}
 
 }
 
