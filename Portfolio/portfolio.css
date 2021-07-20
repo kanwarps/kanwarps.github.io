@@ -86,6 +86,7 @@ h3 {
 	padding: 20vh 12vw;
 }
 
+
 .embed-responsive-item{
 	width: 60vw;
 }
@@ -150,7 +151,7 @@ h3 {
 	margin-left: 90%;
 }
 
-
+/* Fixing video width from 100% to 70% */
 .embed-responsive{
 	width: 70%;
 	margin: 0 auto;
@@ -297,6 +298,11 @@ h3 {
 	/* Reducing the height to 50vh for smaller screens */
 	.right-col{
 		height: 60vh;
+	}
+	/* Fixing video width from 100% to 70% */
+	.embed-responsive{
+		width: 100%;
+		margin: 0 auto;
 	}
 
 }
