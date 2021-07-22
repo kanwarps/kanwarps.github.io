@@ -655,6 +655,27 @@ form {
 	.active{
 		font-size: 1rem;
 	}
+
+	/* Pulling the banner animation a bit up on mobile view. */
+	.strip1 .vertical-center{
+		top: 47%;
+	}
+
+	/* Increasing Banner text size */
+	.strip1 h2{
+		font-size: 3rem;
+	}
+
+	/* Reducing size of the about video container */
+	.banner-image-container{
+		height: 60vh;
+	}
+
+	/* Reducing the font size of captions for gallery */
+	.item-overlay .caption{
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
 
 
