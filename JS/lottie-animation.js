@@ -33,5 +33,6 @@ $(document).ready(function () {
 		loop: true, // Optional
 		autoplay: true, // Optional
 	});
+
 });
 
