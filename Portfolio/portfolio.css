@@ -84,12 +84,22 @@ h3 {
 
 /* Used for the result column */
 .result-css{
-	padding: 20vh 12vw;
+	padding: 12vh 12vw;
 }
 
 
 .embed-responsive-item{
 	width: 60vw;
+}
+
+/* Used for general page images */
+.page-images{
+	width: 100%;
+}
+
+.page-images-half{
+	width: 50%;
+	display: inline-block;
 }
 
 /* The following class is used for the banner image container */
@@ -332,7 +342,7 @@ h3 {
 }
 
 .result-css{
-	padding: 10vh 5vw;
+	padding: 6vh 5vw;
 }
 
 
