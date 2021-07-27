@@ -29,7 +29,7 @@ html {
 }
 
 .about-padding{
-	padding: 15vh 10vw 0 2vw;
+	padding: 15vh 10vw 0 4vw;
 	margin: 0;
 }
 
@@ -468,7 +468,7 @@ form {
 
 /* Before Footer */
 .beforefooter {
-	padding: 15vh 10vw 15vh 2vw;
+	padding: 15vh 10vw 15vh 4vw;
 }
 
 @media(max-width: 1024px) {
