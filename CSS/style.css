@@ -96,7 +96,7 @@ hr.new2 {
 	padding-right: 12vw;
 	background-color: var(--light);
 	color: var(--dark);
-	box-shadow: 0px -25px 20px rgba(1, 1, 1, 0.25);
+	/* box-shadow: 0px -25px 20px rgba(1, 1, 1, 0.25); */
 	z-index: 10;
 }
 
@@ -109,7 +109,7 @@ hr.new2 {
 	padding: 20vh 12vw;
 	background-color: var(--dark);
 	color: var(--light);
-	box-shadow: 0px -40px 20px rgba(1, 1, 1, 0.041);
+	/* box-shadow: 0px -40px 20px rgba(1, 1, 1, 0.041); */
 	z-index: 20;
 }
 
@@ -125,7 +125,7 @@ hr.new2 {
 	padding-right: 12vw ; */
 	background-color: var(--light);
 	color: var(--dark);
-	box-shadow: 0px -25px 20px rgba(1, 1, 1, 0.25);
+	/* box-shadow: 0px -25px 20px rgba(1, 1, 1, 0.25); */
 	z-index: 30;
 }
 
